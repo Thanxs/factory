@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(235, 219, 0);
+}
+
+.cat__background {
+  background: url('./images/background.png');
+  background-size: cover;
+  height: 100vh;
+}
+
+.cat__title {
+  color: rgb(235, 219, 0);
+  text-align: center;
+  font-size: 56px;
+  margin-bottom: 30px;
+}
+
+.cat__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cat__input {
+  color: #000;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 15px;
+  border-radius: 10px;
+  outline: none;
+  max-width: 500px;
+  margin-bottom: 40px;
+}
+
+.cat__create {
+  border-radius: 10px;
+  padding: 15px;
+  background-color: rgb(235, 219, 0);
+  color: #000;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+  border: 5px solid rgb(51, 51, 51);
+  transition: 0.3s box-shadow, background-color ease-in;
+}
+
+.cat__create:hover {
+  box-shadow: 4px 4px 60px 23px rgb(51, 51, 51);
+}
+
+.cat__create:active {
+  background-color: rgb(255, 238, 0);
+}
+
+.cat__portfolio {
+  max-width: 80%;
+  margin: 0 auto;
+  justify-content: center;
+  margin-top: 30px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgb(255, 238, 0);
+  display: none;
+}
+
+.cat__avatar {
+  border-radius: 50%;
+  width: 200px;
+  height: auto;
+  display: flex;
+  overflow: hidden;
+  border: 5px solid rgb(255, 238, 0);
+  margin-left: 10px;
+}
+
+.cat__avatar img {
+  width: 100%;
+  height: 100%;
+}
+
+.cat__data span {
+  font-size: 24px;
+}
+
+.cat__description {
+  max-width: 50%;
+  margin: 0 auto;
+  font-size: 24px;
+  padding-top: 15px;
+}
+
+.cat__hints {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  border: 3px solid rgb(255, 238, 0);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.cat__hints-title {
+  text-align: right;
+  font-size: 36px;
+  cursor: pointer;
+}
+
+.cat__hints-subtitle {
+  margin-bottom: 10px;
+}
+
+.cat__hints-subtitle, .cat__hint {
+  font-size: 0;
+  transition: 0.5s font-size, box-shadow ease-in-out;
+}
+
+.cat__hints:hover {
+  box-shadow: 4px 4px 14px 5px rgb(255, 238, 0);;
+}
+
+.cat__hints:hover .cat__hints-subtitle {
+  font-size: 30px;
+}
+
+.cat__hints:hover .cat__hint {
+  font-size: 24px;
+}

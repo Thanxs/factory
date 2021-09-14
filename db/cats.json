@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Murzik",
+    "age": "2",
+    "avatar": "./images/murzik.jpg",
+    "description": "I am cat Murzik. I am junior front end developer."
+  },
+  {
+    "name": "Aizek",
+    "age": "3",
+    "avatar": "./images/aizek.jpg",
+    "description": "I am cat Aizek. I am middle back end developer."
+  },
+  {
+    "name": "Sam",
+    "age": "4",
+    "avatar": "./images/sam.jpg",
+    "description": "I am cat Sam. I am system architect in 'Cat Dev Solutions'."
+  },
+  {
+    "name": "Steven",
+    "age": "5",
+    "avatar": "./images/steven.jpg",
+    "description": "I am cat Steven. I am CTO in 'Catmazon'."
+  }
+]
